@@ -1,0 +1,50 @@
+PART 1
+ 1.
+  The Hypertext Transfer Protocal is the standard way browsers and servers communicate.
+
+ 2.
+  The Uniform Resource Locator is a address given to a resource on the Web.
+
+ 3.   
+  The Domain Name System is the equivalent of the phonebook od the Internet.
+
+ 4.   
+  Query strings provide extra information on what the user is searching for.
+
+ 5.   
+  POST: sends info to some server.
+  GET: receives info from a server.
+
+ 6.   
+  A HTTP request is from a user to a server in which the server for a webpage.
+
+ 7.   
+  A HTTP response is the server sending back teh webpage.
+
+ 8.   
+  Headers provide extra info about the request. 
+  Request Examples: Host, Cookie, and Accept.
+  Response Examples: Content-Type, and Date.
+
+ 9.   
+  1.Your browser will use DNS to turn the site name into a IP address. 
+  2.Then it'll make a request to the IP for the headers.
+  3.The server sends a response including HTML and a status code.
+  4.Then the browser creates a DOM from the HTML and reads over the code to find any links to other resources (CSS,JavaScript,links,images,etc).
+  5.The browser then will make seperate HTTP requests to each of any resources it finds in the HTML.
+  6.After the requests are sent it will receive a response from the server for each that will include all the necessary code from each request.
+
+
+PART 2
+ 1.
+  curl https://icanhazdadjoke.com/search?q=pirate
+
+ 2.
+   172.67.198.173
+
+ 3.
+  http://localhost:8000
+
+
+PART 3
+ 1.I keep getting 501 Unsupported method ('POST').
